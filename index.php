@@ -28,3 +28,5 @@ if ("apple" == $food || "mango" == $food) {
     echo "Sorry! we don't have any {$food}";
 
 }
+
+// 1.12
