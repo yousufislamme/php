@@ -20,7 +20,7 @@
 //     echo "this person is not Teenager";
 // }
 
-$food = "orange";
+$food = "apple";
 
 if ("apple" == $food || "mango" == $food) {
     echo "Here is some {$food}";
@@ -28,5 +28,3 @@ if ("apple" == $food || "mango" == $food) {
     echo "Sorry! we don't have any {$food}";
 
 }
-
-// 1.12
