@@ -20,11 +20,19 @@
 //     echo "this person is not Teenager";
 // }
 
-$food = "apple";
+// $food = "apple";
 
-if ("apple" == $food || "mango" == $food) {
-    echo "Here is some {$food}";
-} else {
-    echo "Sorry! we don't have any {$food}";
+// if ("apple" == $food || "mango" == $food) {
+//     echo "Here is some {$food}";
+// } else {
+//     echo "Sorry! we don't have any {$food}";
 
+// }
+
+for ($i = 1; $i <= 5; $i += 1) {
+    // echo $i;
+    echo "\n";
+    for ($s = 0; $s < $i; $s++) {
+        echo "*";
+    }
 }
